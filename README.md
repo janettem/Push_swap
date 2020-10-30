@@ -28,40 +28,40 @@ In the beginning, stack A contains the values. In the end, the numbers are in as
 At the beginning and the end, stack B is empty.
 
 ## Instructions
-The programs sort the integers using instructions. The 11 instructions are SA, SB, SS, PA, PB, RA, RB, RR, RRA, RRB, and RRR.
+The programs sort the integers using instructions. The 11 instructions are sa, sb, ss, pa, pb, ra, rb, rr, rra, rrb, and rrr.
 
-### SA
+### Sa
 Swap A swaps the places of the two elements at the top of stack A.
 
-### SB
+### Sb
 Swap B swaps the places of the two elements at the top of stack B.
 
-### SS
-SS executes both SA and SB.
+### Ss
+Ss executes both sa and sb.
 
-### PA
+### Pa
 Push A pushes the element at the top of stack B to the top of stack A.
 
-### PB
+### Pb
 Push B pushes the element at the top of stack A to the top of stack B.
 
-### RA
+### Ra
 Rotate A rotates the element at the top of stack A to the bottom of stack A.
 
-### RB
+### Rb
 Rotate B rotates the element at the top of stack B to the bottom of stack B.
 
-### RR
-RR executes both RA and RB.
+### Rr
+Rr executes both ra and rb.
 
-### RRA
+### Rra
 Reverse Rotate A rotates the element at the bottom of stack A to the top of stack A.
 
-### RRB
+### Rrb
 Reverse Rotate B rotates the element at the bottom of stack B to the top of stack B.
 
-### RRR
-RRR executes both RRA and RRB.
+### Rrr
+Rrr executes both rra and rrb.
 
 ## Sorting Algorithms
 I used two sorting algorithms to sort the integers: one for a small and the other for a big list of values.
