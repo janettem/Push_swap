@@ -91,5 +91,5 @@ usage: ./push_swap n1 [n2 ...]
 ```
 usage: ./checker n1 [n2 ...] < input_file
   n1, n2, etc.: integers
-  input_file: the input file containing newline-separated instructions in lower case
+  input_file: the input file containing newline-separated instructions
 ````
