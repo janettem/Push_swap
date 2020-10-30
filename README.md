@@ -79,3 +79,17 @@ The algorithm divides the elements into groups based on their size. Then, it pus
 Then, the algorithm rotates stack A until the topmost element is bigger, and the bottom-most element is smaller than the first element of the last group in stack B. Then, it pushes the element to stack A. It repeats these steps until all the elements of the group are in stack A. Then, it moves to the previous group and repeats the steps above until all the groups are in stack A. Then, it rotates the stack until the smallest element is at the top.
 
 ![Sorting a Big List of Integers](sort-many-nbrs.gif)
+
+## Installation and Usage
+Clone the repository by pasting "`git clone https://github.com/janettem/Push_swap.git Push_swap`" to your terminal. Then, move to the directory: `cd Push_swap`. Then, compile the programs: `make`.
+
+```
+usage: ./push_swap n1 [n2 ...]
+  n1, n2, etc.: integers
+```
+
+```
+usage: ./checker n1 [n2 ...] < input_file
+  n1, n2, etc.: integers
+  input_file: the input file containing newline-separated instructions in lower case
+````
