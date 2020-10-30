@@ -1,14 +1,22 @@
 # Push_swap
 In this project for @hivehelsinki, my task was to sort numbers using two stacks and as few instructions as possible.
 
+![Push_swap](sort-many-nbrs.gif)
+
 ## Programs
 The project consists of two programs: *push_swap* and *checker*.
+
+![Programs](programs.png)
 
 ### *Push_swap*
 *Push_swap* takes a list of integers as an argument and prints a set of instructions that sort the values to the standard output.
 
+![Push_swap](push_swap.png)
+
 ### *Checker*
 *Checker* takes a list of integers as an argument and reads a set of instructions from the standard output. It executes the instructions. If the values are in order, it prints "OK" to the standard output. Otherwise, it prints "KO" to the standard output.
+
+![Checker](checker.png)
 
 ## Stacks
 The programs sort the integers using two stacks: A and B.
@@ -63,7 +71,11 @@ The algorithm finds the biggest element out of the two topmost elements and the 
 
 Then, the algorithm rotates stack A until the topmost element is bigger, and the bottom-most element is smaller than the topmost element of stack B. Then, it pushes the element to stack A. It repeats these steps until all the elements are in stack A. Then, it rotates the stack until the smallest element is at the top.
 
+![Sorting a Small List of Integers](sort-few-nbrs.gif)
+
 ### Sorting a Big List of Integers
 The algorithm divides the elements into groups based on their size. Then, it pushes a group at a time to stack B.
 
 Then, the algorithm rotates stack A until the topmost element is bigger, and the bottom-most element is smaller than the first element of the last group in stack B. Then, it pushes the element to stack A. It repeats these steps until all the elements of the group are in stack A. Then, it moves to the previous group and repeats the steps above until all the groups are in stack A. Then, it rotates the stack until the smallest element is at the top.
+
+![Sorting a Big List of Integers](sort-many-nbrs.gif)
